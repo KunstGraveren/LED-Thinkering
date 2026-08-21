@@ -2,4 +2,4 @@
 
 # Firmware
 
-## Communication Protocals
+## Communication Protocols
