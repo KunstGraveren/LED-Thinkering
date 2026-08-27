@@ -34,7 +34,8 @@ Gameplay:
 - [x] Support multple console controllers
 	- [x] ps4
 	- [x] xbox360
-  
+
+- [] restart game if game over.
 - [] starting of the game
   - [] waiting until start button is pressed
 	- [] xbox360 = xbox button
