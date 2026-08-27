@@ -1,17 +1,33 @@
 # ASTEROIDS WITH A CONSOLE CONTROLLER (XBOX360/PS4)
 
-- demo_wled_controller_asteroids.py:
+## Objective: 
+Shoot falling asteroids using your Xbox 360 or PS4 controller before they hit your spaceship. Avoid shooting the wrong colors and protect your ship to survive as long as possible.
 
-	- we have an spaceship (first + 2 pixels)
-		- indicates lives (3 from the start)
+## Controls:
+- Start Game:
+  	- Press the controller button (xbox/ps)
+- Shoot Asteroids:
+	- Press the controller buttons that match the asteroid colors:  
+		- Xbox 360:  
+			- X (Blue)  
+			- Y (Yellow)  
+			- B (Red)  
+			- A (Green)
 
-	- asteroids are falling down in 4 colors (Blue,Yellow, Red, Green that matches the xbox controller colors X, Y, B, A)
+		- PS4:  
+			- Cross (X) (Blue)  
+			- Triangle (Y) (Yellow)  
+			- Circle (B) (Red)  
+			- Square (A) (Green)
 
-	- we can shoot the asteroids (Blue,Yellow, Red, Green that matches the xbox controller colors X, Y, B, A) (xyab, ●■▲x)
+Gameplay:
 
-	- if we shoot the wrong color, you lose a life, led strip will blink
-
-	- if we dont shoot all the asteroids, and a asteroids hit the spaceship, you lose a life, led strip will blink
+- The spaceship (represented by the first pixel + 2 pixels) starts with 3 lives.  
+- Asteroids fall from the top in four colors: Blue, Yellow, Red, Green — matching the controller buttons X, Y, B, A respectively.  
+- Shoot the asteroids by pressing the corresponding controller button when they are in reach.  
+- Correct shots: Destroy the asteroid.  
+- Wrong shots: Lose a life and see the LED strip blink to indicate mistake.  
+- Missed asteroid hits: If an asteroid hits your spaceship without being shot, you lose a life, and the LED strip blinks.
 
 # FEATURES / ToDo:
 
