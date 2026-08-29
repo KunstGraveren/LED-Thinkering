@@ -40,6 +40,9 @@ Gameplay:
   - [x] waiting until start button is pressed, show an effect on the led strip
 	- [x] xbox360 = xbox button
 	- [x] ps4 = ps button
+     
+- [x] sound disabled, to much load for cpu (diet-pi disabled all sounds)
+	- ALSA lib pcm.c:8772:(snd_pcm_recover) underrun occurred
 
 - we want levels: 
   - we want to have groups of astoids falling down per level, a group consists of:
