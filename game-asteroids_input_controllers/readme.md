@@ -37,7 +37,7 @@ Gameplay:
 
 - [x] restart game if game over.
 - [x] starting of the game
-  - [x] waiting until start button is pressed
+  - [x] waiting until start button is pressed, show an effect on the led strip
 	- [x] xbox360 = xbox button
 	- [x] ps4 = ps button
 
