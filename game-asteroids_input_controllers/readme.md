@@ -35,11 +35,11 @@ Gameplay:
 	- [x] ps4
 	- [x] xbox360
 
-- [] restart game if game over.
-- [] starting of the game
-  - [] waiting until start button is pressed
-	- [] xbox360 = xbox button
-	- [] ps4 = ps button
+- [x] restart game if game over.
+- [x] starting of the game
+  - [x] waiting until start button is pressed
+	- [x] xbox360 = xbox button
+	- [x] ps4 = ps button
 
 - we want levels: 
   - we want to have groups of astoids falling down per level, a group consists of:
