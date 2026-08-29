@@ -10,6 +10,8 @@ import os
 from dotenv import load_dotenv
 
 # v7
+# - add .env support (/opt/games/.env)
+# - add end: WLEDIP -> WLED_IP, fallback: 127.0.0.1
 # - add reset on game over
 
 # v8
