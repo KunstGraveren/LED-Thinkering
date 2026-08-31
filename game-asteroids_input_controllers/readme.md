@@ -6,19 +6,14 @@ Shoot falling asteroids using your Xbox 360 or PS4 controller before they hit yo
 ## Controls:
 - Start Game:
   	- Press the controller button (xbox/ps)
-- Shoot Asteroids:
-	- Press the controller buttons that match the asteroid colors:  
-		- Xbox 360:  
-			- X (Blue)  
-			- Y (Yellow)  
-			- B (Red)  
-			- A (Green)
-
-		- PS4:  
-			- Cross (X) (Blue)  
-			- Triangle (Y) (Yellow)  
-			- Circle (B) (Red)  
-			- Square (A) (Green)
+- Shoot Asteroids: 
+   - Press the controller buttons that match the asteroid colors:
+	   	||xbox360|ps4|
+	    |-|-------|---|
+	    |Yellow|Y|Triangle|
+	    |Blue|X|Square|
+	    |Red|B|Circle|
+	    |Green|A|Square|
 
 Gameplay:
 
