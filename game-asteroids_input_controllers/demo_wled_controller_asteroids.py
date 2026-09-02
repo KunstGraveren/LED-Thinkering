@@ -23,6 +23,9 @@ from dotenv import load_dotenv
 # - added env: SPACEPOS -> SPACE_POS, fallback: 0
 # - added env: LEDCOUNT -> LED_COUNT, fallback: 250
 
+# V10
+# - rename .env var SPACEPOS into STARTLED
+
 # --- SOUND CONFIGURATION ---
 # pygame.mixer.init(frequency=44100, size=-16, channels=1)
 
@@ -69,7 +72,7 @@ if os.path.isfile(env_path):
     print("Value of WLED_IP:", WLED_IP)
 
     # SPACE POS
-    space_pos_str = os.getenv('SPACEPOS')
+    space_pos_str = os.getenv('STARTLED')
     if space_pos_str:
         try:
             SPACE_POS = int(space_pos_str)
